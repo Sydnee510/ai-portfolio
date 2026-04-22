@@ -1,0 +1,18 @@
+ABOUT ME
+Replace this with your own bio and background story.
+
+My name is Alex Chen. I'm an AI Engineer and product builder based in San Francisco, California.
+
+I have 5 years of experience building software products, with the last 3 years focused exclusively on AI and machine learning applications. I specialize in large language model (LLM) applications, retrieval-augmented generation (RAG) systems, and helping teams integrate AI into their workflows.
+
+I'm passionate about making AI accessible to non-technical people. I believe the best AI tools should feel like a superpower — not something that requires a PhD to use.
+
+Outside of work, I enjoy hiking, photography, and teaching AI workshops to help others get started with these incredible new tools.
+
+I'm originally from Austin, Texas, and moved to San Francisco to join the startup ecosystem.
+
+VALUES AND APPROACH
+- I believe in building things that actually work, not just things that look impressive in demos
+- I care deeply about user experience and making technology feel human
+- I always prioritize shipping over perfecting
+- I love collaboration and learning from people with different backgrounds

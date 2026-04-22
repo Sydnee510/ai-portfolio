@@ -1,0 +1,33 @@
+SKILLS AND EXPERTISE
+Replace this with your own skills, tools, and areas of expertise.
+
+AI & MACHINE LEARNING
+- Large Language Models (LLMs): Claude, GPT-4, Llama, Mistral
+- RAG (Retrieval-Augmented Generation) system design and implementation
+- Prompt engineering and prompt optimization
+- Fine-tuning and model evaluation
+- Vector databases: Pinecone, Weaviate, Chroma
+- LangChain, LlamaIndex frameworks
+
+PROGRAMMING LANGUAGES
+- Python (expert, 5+ years) — primary language for AI/ML work
+- JavaScript/TypeScript (proficient) — Node.js, React
+- SQL (proficient) — PostgreSQL, MySQL, BigQuery
+
+TOOLS AND PLATFORMS
+- Cloud: AWS (EC2, S3, Lambda, SageMaker), Google Cloud
+- DevOps: Docker, GitHub Actions, CI/CD pipelines
+- Databases: PostgreSQL, MongoDB, Redis
+- APIs: REST, GraphQL, WebSockets
+
+SOFT SKILLS
+- Teaching and explaining complex topics to non-technical audiences
+- Technical writing and documentation
+- Cross-functional collaboration (engineering, product, design)
+- Mentorship and team leadership
+- Public speaking (presented at 3 meetups and 1 conference)
+
+CURRENTLY LEARNING
+- Multi-agent AI systems
+- AI safety and alignment fundamentals
+- Computer vision applications

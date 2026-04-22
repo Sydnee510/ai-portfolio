@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- CHALLENGE: Change the title to your name -->
+  <title>Alex Chen — AI Engineer & Builder</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <!-- CHALLENGE: Replace with your name -->
+    <span class="nav-name">Alex Chen</span>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <!-- CHALLENGE: Replace this emoji with your photo: <img src="photo.jpg" style="width:100px;height:100px;border-radius:50%;object-fit:cover;" /> -->
+      <div class="hero-avatar">👋</div>
+
+      <!-- CHALLENGE: Replace with your name -->
+      <h1>Alex Chen</h1>
+
+      <!-- CHALLENGE: Replace with your title/role -->
+      <div class="hero-title">AI Engineer & Product Builder</div>
+
+      <!-- CHALLENGE: Replace with your one-liner — what do you do and for who? -->
+      <p class="hero-tagline">I build AI-powered products that help teams move faster and think bigger.</p>
+
+      <a href="#contact" class="btn">Get in Touch</a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="about-grid">
+      <div>
+        <div class="section-label">About Me</div>
+        <!-- CHALLENGE: Replace with your section title -->
+        <h2 class="section-title">Building the future, one prompt at a time</h2>
+        <!-- CHALLENGE: Replace with your bio (run /generate-bio skill to get ideas!) -->
+        <p class="section-text">
+          I'm an AI engineer based in San Francisco with 5 years of experience turning complex problems into elegant solutions. I specialize in LLM applications, RAG systems, and helping teams go from idea to shipped product.
+          <br /><br />
+          When I'm not building, I'm teaching others how to leverage AI tools to amplify their work — because the best technology should feel like a superpower, not a burden.
+        </p>
+      </div>
+      <div>
+        <!-- CHALLENGE: Replace this emoji with a real photo or illustration -->
+        <div class="about-image">🧑‍💻</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORK / PROJECTS -->
+  <section id="work">
+    <div class="section-label">Selected Work</div>
+    <!-- CHALLENGE: Replace with your section title -->
+    <h2 class="section-title">Projects I'm proud of</h2>
+
+    <div class="projects-grid">
+      <!-- CHALLENGE: Replace these 3 cards with your own projects (run /portfolio-sections to get ideas!) -->
+      <div class="project-card">
+        <div class="project-icon">🤖</div>
+        <h3>AI Customer Support Bot</h3>
+        <p>Built a RAG-powered support assistant that reduced ticket volume by 40% for a SaaS company with 10k+ users.</p>
+      </div>
+
+      <div class="project-card">
+        <div class="project-icon">📊</div>
+        <h3>Data Pipeline Automation</h3>
+        <p>Designed an automated ETL pipeline processing 2M+ records daily, cutting manual data work from 8 hours to 15 minutes.</p>
+      </div>
+
+      <div class="project-card">
+        <div class="project-icon">🎓</div>
+        <h3>AI Workshop Series</h3>
+        <p>Created and taught a 6-week AI literacy program for 200+ non-technical professionals across 3 companies.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="section-label">Skills & Tools</div>
+    <h2 class="section-title">What I work with</h2>
+
+    <!-- CHALLENGE: Replace these tags with your own skills -->
+    <div class="skills-grid">
+      <span class="skill-tag">Python</span>
+      <span class="skill-tag">Claude API</span>
+      <span class="skill-tag">OpenAI API</span>
+      <span class="skill-tag">LangChain</span>
+      <span class="skill-tag">RAG Systems</span>
+      <span class="skill-tag">Node.js</span>
+      <span class="skill-tag">React</span>
+      <span class="skill-tag">PostgreSQL</span>
+      <span class="skill-tag">AWS</span>
+      <span class="skill-tag">Docker</span>
+      <span class="skill-tag">Prompt Engineering</span>
+      <span class="skill-tag">Fine-tuning</span>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="contact-box">
+      <div class="section-label">Get In Touch</div>
+      <!-- CHALLENGE: Replace with your own CTA message -->
+      <h2 class="section-title">Let's build something together</h2>
+      <p class="section-text" style="margin: 0 auto 1.5rem;">
+        I'm always open to interesting conversations, collaborations, and new opportunities. Drop me a line!
+      </p>
+      <div class="contact-links">
+        <!-- CHALLENGE: Replace these links with your own -->
+        <a href="mailto:alex@example.com" class="contact-link">✉️ Email Me</a>
+        <a href="https://linkedin.com/in/alexchen" class="contact-link" target="_blank">💼 LinkedIn</a>
+        <a href="https://github.com/alexchen" class="contact-link" target="_blank">🐙 GitHub</a>
+        <a href="https://twitter.com/alexchen" class="contact-link" target="_blank">🐦 Twitter</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <!-- CHALLENGE: Replace with your name -->
+    <p>© 2026 Alex Chen · Built with Claude AI ✨</p>
+  </footer>
+
+  <!-- AI CHAT WIDGET -->
+  <button id="chat-btn" title="Chat with my AI assistant">💬</button>
+
+  <div id="chat-modal">
+    <div class="chat-header">
+      <div class="chat-avatar">🤖</div>
+      <div class="chat-header-info">
+        <!-- CHALLENGE: Change the assistant name -->
+        <div class="chat-header-name">Alex's AI Assistant</div>
+        <div class="chat-header-status">● Online — ask me anything!</div>
+      </div>
+      <button class="chat-close" id="chat-close">✕</button>
+    </div>
+
+    <div class="chat-messages" id="chat-messages">
+      <!-- CHALLENGE: Change this welcome message -->
+      <div class="msg bot">Hi! 👋 I'm Alex's AI assistant. I know everything about their work, projects, and background. What would you like to know?</div>
+    </div>
+
+    <div class="chat-input-area">
+      <!-- CHALLENGE: Change this placeholder text -->
+      <input type="text" id="chat-input" placeholder="Ask about Alex's experience..." />
+      <button id="chat-send">➤</button>
+    </div>
+  </div>
+
+  <script>
+    const chatBtn = document.getElementById('chat-btn');
+    const chatModal = document.getElementById('chat-modal');
+    const chatClose = document.getElementById('chat-close');
+    const chatMessages = document.getElementById('chat-messages');
+    const chatInput = document.getElementById('chat-input');
+    const chatSend = document.getElementById('chat-send');
+
+    let conversationHistory = [];
+
+    chatBtn.addEventListener('click', () => chatModal.classList.toggle('open'));
+    chatClose.addEventListener('click', () => chatModal.classList.remove('open'));
+
+    function addMessage(text, role) {
+      const msg = document.createElement('div');
+      msg.className = `msg ${role}`;
+      // Simple markdown: bold and line breaks
+      msg.innerHTML = text
+        .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+        .replace(/\n/g, '<br/>');
+      chatMessages.appendChild(msg);
+      chatMessages.scrollTop = chatMessages.scrollHeight;
+      return msg;
+    }
+
+    async function sendMessage() {
+      const text = chatInput.value.trim();
+      if (!text) return;
+
+      chatInput.value = '';
+      addMessage(text, 'user');
+
+      const typing = document.createElement('div');
+      typing.className = 'typing';
+      typing.textContent = 'Thinking...';
+      chatMessages.appendChild(typing);
+      chatMessages.scrollTop = chatMessages.scrollHeight;
+
+      try {
+        const response = await fetch('/chat', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ message: text, history: conversationHistory })
+        });
+
+        const data = await response.json();
+        typing.remove();
+
+        const reply = data.reply || data.error || 'Something went wrong, please try again.';
+        addMessage(reply, 'bot');
+
+        conversationHistory.push({ role: 'user', content: text });
+        conversationHistory.push({ role: 'assistant', content: reply });
+        if (conversationHistory.length > 16) conversationHistory = conversationHistory.slice(-16);
+
+      } catch (err) {
+        typing.remove();
+        addMessage('Oops! Something went wrong. Please try again.', 'bot');
+      }
+    }
+
+    chatSend.addEventListener('click', sendMessage);
+    chatInput.addEventListener('keydown', e => { if (e.key === 'Enter') sendMessage(); });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+PROJECTS
+Replace this with descriptions of your own projects and work.
+
+PROJECT 1: AI Customer Support Bot (2024)
+- Built a RAG-powered support assistant for a SaaS company with 10,000+ users
+- Uses Claude API to answer questions from a knowledge base of 500+ support docs
+- Result: 40% reduction in support tickets, $120K annual savings for the client
+- Tech stack: Python, Claude API, Pinecone, FastAPI, React
+- This is one of my proudest projects because it genuinely helped real people
+
+PROJECT 2: Data Pipeline Automation Tool (2022-2023)
+- Designed an automated ETL pipeline for a healthcare analytics company
+- Processes 2 million+ patient records daily while maintaining HIPAA compliance
+- Cut manual data work from 8 hours per day to 15 minutes
+- Tech stack: Python, Apache Airflow, PostgreSQL, AWS S3
+- Presented at a regional data engineering meetup in 2023
+
+PROJECT 3: AI Workshop Series (2024)
+- Created and taught a 6-week AI literacy program for non-technical professionals
+- 200+ participants across 3 different companies
+- Topics covered: prompt engineering, AI tools for productivity, building simple AI apps
+- Average participant rating: 4.8/5.0
+- Currently developing an online version of this curriculum
+
+PROJECT 4: Open Source — SimpleRAG (2024)
+- Built and open-sourced a beginner-friendly RAG framework
+- 500+ GitHub stars, used by developers in 20+ countries
+- Features simple document ingestion, keyword routing, and conversation memory
+- Documentation focused on making it accessible to developers new to AI
+
+SIDE PROJECTS
+- Personal blog at alexchen.dev — writing about AI tools, tutorials, and career advice
+- Monthly newsletter "Build With AI" — 2,000 subscribers

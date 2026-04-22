@@ -1,0 +1,25 @@
+WORK EXPERIENCE
+Replace this with your own work history and roles.
+
+CURRENT ROLE: Senior AI Engineer at TechFlow Inc (2023 - Present)
+- Lead AI product development for a team of 8 engineers
+- Built and deployed a customer support AI that handles 40% of all incoming tickets
+- Reduced response time from 4 hours to under 2 minutes using RAG architecture
+- Mentor junior engineers on LLM best practices and prompt engineering
+
+PREVIOUS ROLE: Software Engineer at DataBridge (2021 - 2023)
+- Full-stack engineer working on data pipeline automation tools
+- Built ETL pipelines processing 2 million+ records per day
+- Reduced manual data processing time from 8 hours to 15 minutes per day
+- Worked closely with product and design teams in an agile environment
+
+EARLIER ROLE: Junior Developer at StartupXYZ (2019 - 2021)
+- First engineering hire at an early-stage startup
+- Built the core product from 0 to 1, helped grow to 500 paying customers
+- Wore many hats: backend, frontend, DevOps, and some product work
+- Company acquired by DataBridge in 2021
+
+EDUCATION
+- B.S. Computer Science, University of Texas at Austin (2019)
+- Graduated with honors, focus on machine learning and algorithms
+- Relevant coursework: Machine Learning, Natural Language Processing, Data Structures, Algorithms
